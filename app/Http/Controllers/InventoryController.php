@@ -6,6 +6,7 @@ use App\Models\Product;
 use App\Models\InventoryTransaction;
 use App\Http\Requests\AdjustInventoryRequest;
 use App\Http\Resources\InventoryTransactionResource;
+use App\Http\Resources\ProductResource;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 
