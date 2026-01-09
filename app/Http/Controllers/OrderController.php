@@ -103,7 +103,7 @@ class OrderController extends Controller
                 $order->update([
                     'subtotal' => $subtotal,
                     'total_amount' => $subtotal - ($validated['discount_amount'] ?? 0) + ($validated['tax_amount'] ?? 0),
-                    'status' => 'completed',
+                    'status' => 'pending',
                 ]);
 
                 return new OrderResource($order->load('items.product', 'createdBy'));
