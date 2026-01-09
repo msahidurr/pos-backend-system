@@ -1,4 +1,4 @@
-# Laravel 11 Multi-Tenant POS & Inventory Management System
+# Laravel 12 Multi-Tenant POS & Inventory Management System
 
 A production-ready RESTful API backend for managing point-of-sale transactions, inventory, and business analytics across multiple tenants.
 
