@@ -33,7 +33,7 @@ A production-ready RESTful API backend for managing point-of-sale transactions, 
 ### 1. Clone Repository
 ```bash
 git clone <repository-url>
-cd pos-system
+cd pos-backend-system
 ```
 
 ### 2. Install Dependencies
